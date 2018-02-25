@@ -18,6 +18,7 @@ import {
 // MODELS
 import {
     Recipe,
+    Ingredient,
 } from './models';
 
 @NgModule({
