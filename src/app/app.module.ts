@@ -15,6 +15,10 @@ import {
     RecipesComponent,
     ShoppingListComponent,
 } from './pages';
+// MODELS
+import {
+    Recipe,
+} from './models';
 
 @NgModule({
     declarations: [
