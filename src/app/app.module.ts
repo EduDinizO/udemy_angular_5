@@ -20,6 +20,7 @@ import {
     Recipe,
     Ingredient,
 } from './models';
+import { DropdownDirective } from './directives/dropdown.directive';
 
 @NgModule({
     declarations: [
@@ -31,6 +32,7 @@ import {
         RecipeItemComponent,
         ShoppingListComponent,
         ShoppingEditComponent,
+        DropdownDirective,
     ],
     imports: [
         BrowserModule
