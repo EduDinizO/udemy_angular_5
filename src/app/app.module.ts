@@ -20,7 +20,10 @@ import {
     Recipe,
     Ingredient,
 } from './models';
-import { DropdownDirective } from './directives/dropdown.directive';
+// DIRECTIVES
+import {
+    DropdownDirective
+} from './directives';
 
 @NgModule({
     declarations: [
