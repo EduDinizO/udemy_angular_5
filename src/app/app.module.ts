@@ -24,6 +24,11 @@ import {
 import {
     DropdownDirective
 } from './directives';
+// SERVICES
+import {
+    ShoppingListService,
+    RecipeService,
+} from './services';
 
 @NgModule({
     declarations: [
@@ -40,7 +45,10 @@ import {
     imports: [
         BrowserModule
     ],
-    providers: [],
+    providers: [
+        ShoppingListService,
+        RecipeService,
+    ],
     bootstrap: [AppComponent]
 })
 export class AppModule { }
