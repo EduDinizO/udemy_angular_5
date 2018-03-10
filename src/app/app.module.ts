@@ -14,6 +14,7 @@ import {
     RecipeItemComponent,
     ShoppingEditComponent,
     RecipeStartComponent,
+    RecipeEditComponent,
 } from './components';
 // PAGES
 import {
@@ -47,6 +48,7 @@ import {
         ShoppingEditComponent,
         DropdownDirective,
         RecipeStartComponent,
+        RecipeEditComponent,
     ],
     imports: [
         BrowserModule,
