@@ -6,8 +6,8 @@
 
         <div class="navbar-default">
             <ul class="nav navbar-nav">
-                <li><a (click)="onSelect('recipe')" style="cursor: pointer;">Recipes</a></li>
-                <li><a (click)="onSelect('shopping-list')" style="cursor: pointer;">Shopping list</a></li>
+                <li routerLinkActive="active"><a routerLink="/recipes" style="cursor: pointer;">Recipes</a></li>
+                <li routerLinkActive="active"><a routerLink="/shopping-list" style="cursor: pointer;">Shopping list</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown" appDropdown>
