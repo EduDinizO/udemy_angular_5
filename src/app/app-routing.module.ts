@@ -1,7 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { RecipesComponent, ShoppingListComponent } from './pages';
-import { RecipeStartComponent, RecipeDetailComponent, RecipeEditComponent } from './components';
+
+import { RecipesComponent } from './recipes/recipes.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
+import { RecipeStartComponent } from './recipes/recipe-start/recipe-start.component';
+import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
+import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component';
 
 const appRoutes: Routes = [
     { path: '', redirectTo: '/recipes', pathMatch: 'full' },
@@ -17,14 +21,9 @@ const appRoutes: Routes = [
 ];
 
 @NgModule({
-    imports: [
-        RouterModule.forRoot(appRoutes),
-    ],
-    exports: [
-        RouterModule,
-    ]
+    imports: [RouterModule.forRoot(appRoutes)],
+    exports: [RouterModule]
 })
-
 export class AppRoutingModule {
 
 }
